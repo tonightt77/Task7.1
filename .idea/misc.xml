@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/TB_zuoye/danxuan_duoxuan/Duoxuan_danxuan_spiner_chengji/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/TB_zuoye/danxuan_duoxuan/Duoxuan_danxuan_spiner_chengji/app/src/main/res/layout/activity_update.xml" value="0.1" />
+        <entry key="..\:/TB_zuoye/danxuan_duoxuan/Duoxuan_danxuan_spiner_chengji/app/src/main/res/layout/activity_wel.xml" value="0.15" />
+        <entry key="..\:/wps88800010/demos/app/src/main/res/drawable/shape_bg_fff_4.xml" value="0.1" />
+        <entry key="..\:/wps88800010/demos/app/src/main/res/drawable/shape_bg_fff_6.xml" value="0.1" />
+        <entry key="..\:/wps88800010/demos/app/src/main/res/layout/activity_add.xml" value="0.25364583333333335" />
+        <entry key="..\:/wps88800010/demos/app/src/main/res/layout/activity_list.xml" value="0.24479166666666666" />
+        <entry key="..\:/wps88800010/demos/app/src/main/res/layout/activity_login.xml" value="0.25364583333333335" />
+        <entry key="..\:/wps88800010/demos/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/wps88800010/demos/app/src/main/res/layout/activity_update.xml" value="0.25364583333333335" />
+        <entry key="..\:/wps88800010/demos/app/src/main/res/layout/activity_wel.xml" value="0.24583333333333332" />
+        <entry key="..\:/wps88800010/demos/app/src/main/res/layout/item_meal.xml" value="0.24479166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="jbr-11" project-jdk-type="JavaSDK" />
+</project>

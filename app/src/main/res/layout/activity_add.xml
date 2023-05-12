@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv0"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="运动员"
+            android:visibility="invisible"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Post type"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_marginTop="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+
+            android:id="@+id/radiobutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lost" />
+
+        <RadioButton
+            android:id="@+id/radiobutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Found" />
+
+
+    </RadioGroup>
+
+
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_1"
+            android:layout_width="200dp"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_bg_fff_4"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_2"
+            android:layout_width="200dp"  android:padding="5dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_bg_fff_4"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_3"
+            android:layout_width="200dp"  android:padding="5dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_bg_fff_4"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_4"
+            android:layout_width="200dp"  android:padding="5dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_bg_fff_4"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_5"
+            android:layout_width="200dp"  android:padding="5dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_bg_fff_4"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/tv_login"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/layout_1"
+        android:layout_marginTop="20dp"
+
+        android:gravity="center"
+        android:text="save"
+
+        android:textSize="20sp" />
+
+
+
+
+</LinearLayout>

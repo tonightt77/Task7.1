@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/shape_bg_fff_6"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:text="运动员" />
+        <View
+            style="@style/divider_line_d8d8d8"
+            android:layout_below="@+id/tv_up"
+            android:layout_marginTop="5dp" />
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+
+            android:text="成绩" />
+
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:layout_marginTop="5dp"
+            android:text="用户性别" />
+
+
+        <TextView
+            android:id="@+id/tv_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:layout_marginTop="5dp"
+            android:text="运动项" />
+
+        <TextView
+            android:id="@+id/tv_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:layout_marginTop="5dp"
+            android:text="运动项" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
